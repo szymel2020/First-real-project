@@ -1,0 +1,548 @@
+body {
+	display: flex;
+	flex-flow: column;
+	font-size: 15px;
+	background-image: url("https://images.unsplash.com/photo-1589676562548-06780ba4f5c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+	background-repeat: no-repeat;
+	background-attachment:  fixed; 
+	background-position:  center;
+	background-size: 100% ;
+	
+}
+
+ul {
+	list-style-type: none;
+	font-size: 3em;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column;
+	width: .5em;
+	height: 10em;
+	position: absolute;
+	left: 30em;
+	top: 4em;
+	position: fixed;
+	padding: .5em;
+	 
+}
+
+li {
+	text-shadow: .08em .08em .1em black;
+	font-size: 2em;
+	color: snow;
+}
+
+container {
+	display: flex;
+	flex-flow:  ;
+	flex-direction: column ;
+	width: 80%;
+	height: 100em;
+	margin: 2em auto;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 30%;
+	background-image: repeating-linear-gradient(45deg, pink, pink 2em, yellow 2em, yellow 4em, grey 4em, grey 6em);
+}
+
+.flowerHeader {
+	
+	width: 20%;
+	height: 50%;
+}
+
+.flowerHeader {
+
+	-webkit-animation: flower 5s infinite alternate ;
+	-moz-animation: flower 5s infinite alternate ;
+	-ms-animation: flower 5s infinite alternate ;
+	-o-animation: flower 5s infinite alternate ;
+	animation: flower 5s infinite alternate ;
+}
+
+@-webkit-keyframes flower {
+	0% {
+	-webkit-transform: translate(0,0);
+	}
+	50% {
+		-webkit-transform: translate(0,5em); border-radius: 50%; 
+	}
+	100% {
+		-webkit-transform: translate(0,14.2em); 
+		-webkit-transition: rotate(20deg);
+	}
+}
+
+h1 {
+	display: flex;
+/*	text-align: center;*/
+	align-items:flex-s;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 4em;
+	font-family: 'Fredoka One', cursive;
+	font-weight: 900;
+	color: darkseagreen;
+	width: 40%;
+	margin-top: .1em;
+	padding-top: .1em;
+	padding-right: 1em;
+	text-shadow: white 0.1em 0.1em 0em, #390def 0.2em 0.2em 0em, white 0.3em 0.3em 0em, #390def 0.4em 0.4em 0em;
+	transform: rotate(-90deg);
+	
+}
+
+.logoLeft {
+	width: 100%;
+}
+
+.ikons {
+	display: flex;
+	width: 40%;
+	margin: 0;
+	border-top: 55px solid #405d40;
+	border-bottom: 55px solid #405d40;
+	border-left: 55px solid #5c885c;
+	border-right: 55px solid #5c885c;
+	
+}
+
+.ikons:hover {
+	border-top: 55px solid #5c885c;
+	border-bottom: 55px solid #5c885c;
+	border-left: 55px solid #405d40;
+	border-right: 55px solid #405d40;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 5%;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 60%;
+	background-color: dimgrey;
+	background-image: linear-gradient(to left, red, yellow, green, violet);
+}
+
+.info {
+	display: flex;
+	width: 30%;
+	text-align: justify;
+	font-family: 'Stint Ultra Expanded', cursive;
+	
+}
+
+.infoCenter {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-flow: column;
+	border-color: white gold gold gold;
+	border-style: solid;
+	border-width: .5em .5em 5em .5em;
+	width:100%;
+	margin: .2em;
+	background-image: linear-gradient(to bottom, white, white, blue);
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.infoAside {
+	display: flex;
+	flex-flow: column;
+	border-width: 1em .5em;
+	border-style:  dotted ;
+	border-color: green blue green blue;
+	width: 40%;
+	margin: .5em;
+}
+
+.mainKatalog {
+	display: flex;
+	flex-flow: column;
+	list-style-type: none;
+	font-size: .4em;
+	margin: .2em;
+	width: auto;
+	height: 100%;
+	position: static;
+	
+
+}
+
+.katalog {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 1em;
+	padding: .3em;
+	width: auto;
+	height: 3em;
+	box-sizing: border-box;
+}
+
+a.linkKatalog {
+	-webkit-transition: all 2s linear .3s;  
+	-moz-transition: all 2s linear .3s;  
+	-ms-transition: all 2s linear .3s;  
+	-o-transition: all 2s linear .3s;  
+	transition: all 2s linear .3s;  
+}	
+
+
+a.linkKatalog:hover {
+	-webkit-transform: translate(1em, 0) ; color: blue; font-size: 2.3em;
+	-moz-transform: translate(1em, 0) ; color: blue; font-size: 2.3em;
+	-ms-transform: translate(1em, 0) ; color: blue; font-size: 2.3em;
+	-o-transform: translate(1em, 0) ; color: blue; font-size: 2.3em;
+	transform: translate(1em, 0) ; color: blue; font-size: 2.3em;
+}
+a.linkKatalog2 {
+	-webkit-transition: all 2s linear .3s;  
+	-moz-transition: all 2s linear .3s;  
+	-ms-transition: all 2s linear .3s;  
+	-o-transition: all 2s linear .3s;  
+	transition: all 2s linear .3s;  
+}	
+
+
+a.linkKatalog2:hover {
+	-webkit-transform: translate(-1em, 0) ; color: blue; font-size: 2.3em;
+	-moz-transform: translate(-1em, 0) ; color: blue; font-size: 2.3em;
+	-ms-transform: translate(-1em, 0) ; color: blue; font-size: 2.3em;
+	-o-transform: translate(-1em, 0) ; color: blue; font-size: 2.3em;
+	transform: translate(-1em, 0) ; color: blue; font-size: 2.3em;
+}
+a.linkKatalog3 {
+	-webkit-transition: all 2s linear .3s;  
+	-moz-transition: all 2s linear .3s;  
+	-ms-transition: all 2s linear .3s;  
+	-o-transition: all 2s linear .3s;  
+	transition: all 2s linear .3s;  
+}	
+
+
+a.linkKatalog3:hover {
+	-webkit-transform: translate(0,-1em) ; color: blue; font-size: 2.3em;
+	-moz-transform: translate(0,-1em) ; color: blue; font-size: 2.3em;
+	-ms-transform: translate(0,-1em) ; color: blue; font-size: 2.3em;
+	-o-transform: translate(0,-1em) ; color: blue; font-size: 2.3em;
+	transform: translate(0,-1em) ; color: blue; font-size: 2.3em;
+}
+a.linkKatalog4 {
+	-webkit-transition: all 2s linear .3s;  
+	-moz-transition: all 2s linear .3s;  
+	-ms-transition: all 2s linear .3s;  
+	-o-transition: all 2s linear .3s;  
+	transition: all 2s linear .3s;  
+}	
+
+
+a.linkKatalog4:hover {
+	-webkit-transform: translate(0,1em) ; color: blue; font-size: 2.3em;
+	-moz-transform: translate(0,1em) ; color: blue; font-size: 2.3em;
+	-ms-transform: translate(0,1em) ; color: blue; font-size: 2.3em;
+	-o-transform: translate(0,1em) ; color: blue; font-size: 2.3em;
+	transform: translate(0,1em) ; color: blue; font-size: 2.3em;
+}
+a.linkKatalog5 {
+	-webkit-transition: all 2s linear .3s;  
+	-moz-transition: all 2s linear .3s;  
+	-ms-transition: all 2s linear .3s;  
+	-o-transition: all 2s linear .3s;  
+	transition: all 2s linear .3s;  
+}	
+
+
+a.linkKatalog5:hover {
+	-webkit-transform: rotate(20deg) ; color: blue; font-size: 2.3em;
+	-moz-transform: rotate(20deg) ; color: blue; font-size: 2.3em;
+	-ms-transform: rotate(20deg) ; color: blue; font-size: 2.3em;
+	-o-transform: rotate(20deg) ; color: blue; font-size: 2.3em;
+	transform: rotate(20deg) ; color: blue; font-size: 2.3em;
+}
+
+tabel, tr,  th, td {
+	width: 100%;
+	border-collapse:collapse;
+/*	border: .3em solid blue;*/
+}
+th {
+	text-transform: uppercase;
+	background-color: darkslategray;
+	color: white;
+	height: 19%;
+	width: 100%;
+	font-family: 'Sancreek', cursive;
+
+}
+td {
+	font-size: 1.2em;
+	font-family: 'Diplomata SC', cursive;
+
+}
+
+th,td {
+	width: 100%;
+	text-align: center;
+}
+
+img.flowers22 {
+	box-shadow: 9px 9px 6px blue;
+	height: 13em;
+	margin: 1.5em;
+}
+
+.tableLeft {
+	width: 100%;
+	background-color: brown;
+}
+
+.tableRight {
+	width: 100%;
+	background-color: green;
+}
+
+
+h2 {
+	display: flex;
+	font-size: 1.9em;
+	justify-content: center;
+	margin: .5em ;
+	height: 2.8em;
+	width:auto;
+	text-transform: uppercase;
+	color: black;
+	font-family: 'Kumar One Outline', cursive;
+	background-color: lightgrey;
+	border-bottom: 15px solid gold;
+}
+
+.flower {
+	display: flex;
+	float: right;
+	width: 10em;
+	margin: .5em
+}
+
+p {
+	margin: .5em
+}
+
+a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 2.2em;
+	font-family: 'Special Elite', cursive;
+	width: 20%;
+	height: 90%;
+/*	border-radius: 50%;*/
+	background: rgba(255, 192, 203, .1);
+	color: black;
+	margin: .1em;
+	box-sizing: border-box;
+}
+
+a.menuKwiaty:hover {
+	font-size: 2.4em;
+	border: .1em solid black;
+}
+
+footer {
+	display: flex;
+	align-items: center;;
+	justify-content: center;
+	width: 100%;
+	height: 10%;
+	background: rgba(5, 92, 178, .43);
+	font-size: 3em;
+	font-family: 'Special Elite', cursive;
+	
+}
+
+@media only screen and (max-width: 81em) {
+	ul {
+	list-style-type: none;
+	font-size: 2.5em;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column;
+	width: .5em;
+	height: 10em;
+	position: absolute;
+	left: 12em;
+	top: 1.5em;
+/*	position: */
+	padding: .5em;
+	 
+	}
+	
+	.infoAside {
+		width:30%;
+	}
+	
+	td {
+		font-size: .5em;
+	}
+}
+
+@media only screen and (max-width: 71em) {
+	.info {
+		display: none;
+	}
+	
+	.infoAside {
+	display: flex;
+	flex-flow: column;
+	border-width: 1em .5em;
+	border-style:  dotted ;
+	border-color: green blue green blue;
+	width: 70%;
+	margin: .5em;
+}
+}
+
+@media only screen and (max-width: 64em) {
+	.ikons {
+		display: none;
+	}
+	
+	header {
+	display: flex;
+	width: 100%;
+	height: 30%;
+	background-image: repeating-radial-gradient( green, purple, yellow, black , blue, gold);
+	}
+	
+	body {
+	display: flex;
+	flex-flow: column;
+	font-size: 15px;
+	background-image: url("https://cdn.pixabay.com/photo/2020/05/24/12/31/architecture-5214047__340.jpg");
+	background-repeat: no-repeat;
+	background-attachment:  fixed; 
+	background-position:  center;
+	background-size: 100% ;
+	
+	}
+	
+	a.menuKwiaty {
+		color: white;
+	}
+	
+	a.menuKwiaty:hover {
+		border: none;
+		color: deeppink;
+	}
+	
+	h1 {
+		text-shadow: none;
+		color: deeppink;
+	}
+}
+
+@media only screen and (max-width:56em) {
+	article {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 60%;
+	background-color: dimgrey;
+	background-image: linear-gradient(to left, red, yellow, green, violet);
+	}
+	
+	.infoCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	border-color: none;
+	border-style: none;
+	border-width: none;
+	width:100%;
+	margin: 0;
+	background-image: none;
+	border-radius: none;
+	box-sizing: border-box;
+	}
+	
+	ul.mainKatalog {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row;
+	list-style-type: none;
+	font-size: .3em;
+	margin: .2em;
+	width: 100%;
+	
+	
+	}
+	
+	.infoAside {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+		
+	border-width: none;
+	border-style:  none ;
+	border-color: none;
+	width: 100%;
+		
+	margin: 0;
+	}
+	th {
+		height: 5%;
+	}
+	
+	a.menuKwiaty {
+		font-size: 1.5em
+	}
+	
+	h2 {
+		text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 ;
+		width: 80%;
+	height: 100%;
+	text-transform: uppercase;
+	color: black;
+	font-family: 'Kumar One Outline', cursive;
+	background-color: lightgrey;
+	border-bottom: 1px solid gold;
+	}
+	
+	.tableLeft {
+	width: 100%;
+	background-color: palevioletred;
+}
+
+.tableRight {
+	width: 100%;
+	background-color: mediumturquoise;
+}
+		
+}
+
+
