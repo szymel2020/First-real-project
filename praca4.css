@@ -374,7 +374,7 @@ footer {
 /*	background: rgba(34, 186, 28, 0.47);*/
 	font-size: 3em;
 	font-family: 'Special Elite', cursive;
-	background-image: linear-gradient(to bottom right, green, black);
+	background-image: linear-gradient(to bottom right, white, green, black);
 }
 
 @media only screen and (max-width: 81em) {
