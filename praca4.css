@@ -24,13 +24,13 @@ ul {
 	top: 4em;
 	position: fixed;
 	padding: .5em;
-	 
 }
 
 li {
+	display: flex;
 	text-shadow: .08em .08em .1em black;
 	font-size: 2em;
-	color: snow;
+	color: yellow;
 }
 
 container {
