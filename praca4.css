@@ -47,11 +47,11 @@ header {
 	display: flex;
 	width: 100%;
 	height: 30%;
-<<<<<<< HEAD
-	background-image: repeating-linear-gradient(45deg, pink, pink 2em, green 2em, green 4em, purple 4em, purple 6em);
-=======
-	background-image: repeating-linear-gradient(45deg, pink, pink 2em, green 2em, green 4em, grey 4em, grey 6em);
->>>>>>> color_in_header
+
+	background-image: repeating-linear-gradient(45deg, blue, blue 2em, green 2em, green 4em, purple 4em, purple 6em);
+
+	
+
 }
 
 .flowerHeader {
