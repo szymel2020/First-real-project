@@ -88,7 +88,7 @@ h1 {
 	align-items:flex-s;
 	justify-content: center;
 	text-transform: uppercase;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Fredoka One', cursive;
 	font-weight: 900;
 	color: darkseagreen;
@@ -97,7 +97,7 @@ h1 {
 	padding-top: .1em;
 	padding-right: 1em;
 	text-shadow: white 0.1em 0.1em 0em, #efe612 0.2em 0.2em 0em, white 0.3em 0.3em 0em, #efe612 0.4em 0.4em 0em;
-	transform: rotate(-90deg);
+/*	transform: rotate(-90deg);*/
 	
 }
 
