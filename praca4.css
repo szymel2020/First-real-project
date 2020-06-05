@@ -96,7 +96,7 @@ h1 {
 	margin-top: .1em;
 	padding-top: .1em;
 	padding-right: 1em;
-	text-shadow: white 0.1em 0.1em 0em, #390def 0.2em 0.2em 0em, white 0.3em 0.3em 0em, #390def 0.4em 0.4em 0em;
+	text-shadow: white 0.1em 0.1em 0em, #efe612 0.2em 0.2em 0em, white 0.3em 0.3em 0em, #efe612 0.4em 0.4em 0em;
 	transform: rotate(-90deg);
 	
 }
@@ -109,10 +109,10 @@ h1 {
 	display: flex;
 	width: 40%;
 	margin: 0;
-	border-top: 55px solid #405d40;
-	border-bottom: 55px solid #405d40;
-	border-left: 55px solid #5c885c;
-	border-right: 55px solid #5c885c;
+	border-top: 55px solid #10ffd1;
+	border-bottom: 55px solid #10ffd1;
+	border-left: 55px solid #ff3f3f;
+	border-right: 55px solid #ff3f3f;
 	
 }
 
