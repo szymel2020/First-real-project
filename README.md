@@ -2,4 +2,4 @@
 
 I use this project for learning.
 
-*pozdrawiam*
+*pozdrawiam moich fanów*
